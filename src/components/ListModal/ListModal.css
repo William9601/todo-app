@@ -1,0 +1,58 @@
+.list-modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  width: 60vw;
+  background-color: #ffffff;
+  border-radius: 2px;
+  margin-top: 1rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 16px 8px 16px 8px;
+  border-radius: 2px;
+}
+
+.list-modal-header h2 {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 28px;
+  color: #292929;
+  margin-bottom: 8px;
+}
+
+.list-modal-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.todo-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 0 1rem;
+}
+/*# sourceMappingURL=ListModal.css.map */

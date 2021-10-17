@@ -1,0 +1,16 @@
+@import '../StyleVariables/StyleVariables.scss';
+
+.input-text-container {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid $background-gray;
+}
+
+.text-input {
+  border: none;
+  width: 90%;
+}
+
+.text-input:focus {
+  outline: none;
+}

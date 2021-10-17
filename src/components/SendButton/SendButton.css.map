@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,sBAAsB,CAAC;EACrB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,WAAW;EACpB,aAAa,EAAE,MAAM;EACrB,gBAAgB,ECLR,OAAO;EDMf,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,GAAG;CACjB;;AAED,AAAA,sBAAsB,AAAA,MAAM,CAAC;EAC3B,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,eAAe;CACxB",
+    "sources": [
+        "SendButton.scss",
+        "../StyleVariables/StyleVariables.scss"
+    ],
+    "names": [],
+    "file": "SendButton.css"
+}

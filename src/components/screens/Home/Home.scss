@@ -1,0 +1,8 @@
+@import '../../StyleVariables/StyleVariables.scss';
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  background-image: $gradient;
+  height: 9em;
+}

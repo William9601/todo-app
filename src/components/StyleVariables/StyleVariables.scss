@@ -1,0 +1,60 @@
+// Colors
+$primary: #2ca895;
+$secondary: #3c73b8;
+$tertiary-gray: #8f9194;
+$background-gray: #f2f2f2;
+$base-dark: #292929;
+$white: #ffffff;
+$gradient: linear-gradient(to right, #2ca895, #3c73b8);
+
+// Fonts
+@mixin h1-text {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.75em;
+  line-height: 36px;
+  color: $base-dark;
+}
+
+@mixin h2-text {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 28px;
+  color: $base-dark;
+  margin-bottom: 8px;
+}
+
+@mixin h6-text {
+  font-family: mulish;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 20px;
+  color: $tertiary-gray;
+}
+
+@mixin generic-text {
+  font-family: roboto;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+// Box
+$border: 2px;
+
+// Icons
+@mixin medium-icon {
+  height: 24px;
+  width: 24px;
+  background-color: rgb(12, 144, 233);
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+@mixin x-large-icon {
+  height: 48px;
+  width: 48px;
+  background-color: rgb(138, 191, 226);
+  border-radius: 50%;
+  margin-right: 16px;
+}

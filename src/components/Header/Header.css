@@ -1,0 +1,21 @@
+.header-container {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2ca895), to(#3c73b8));
+  background-image: linear-gradient(to right, #2ca895, #3c73b8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.header-container h1 {
+  font-family: mulish;
+  font-weight: 600;
+  font-size: 1.75em;
+  line-height: 36px;
+  color: #292929;
+}
+/*# sourceMappingURL=Header.css.map */

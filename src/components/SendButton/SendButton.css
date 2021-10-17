@@ -1,0 +1,15 @@
+.send-button-container {
+  border: none;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+  background-color: #2ca895;
+  color: white;
+  font-weight: 900;
+}
+
+.send-button-container:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+/*# sourceMappingURL=SendButton.css.map */
